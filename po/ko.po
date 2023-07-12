@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxd\n"
 "Report-Msgid-Bugs-To: lxd@lists.canonical.com\n"
-"POT-Creation-Date: 2023-07-11 07:03+0000\n"
+"POT-Creation-Date: 2023-07-12 11:35+0000\n"
 "PO-Revision-Date: 2022-03-10 15:09+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/linux-containers/"
@@ -273,7 +273,7 @@ msgid ""
 "### Note that only the configuration can be changed."
 msgstr ""
 
-#: lxc/profile.go:442
+#: lxc/profile.go:436
 msgid ""
 "### This is a YAML representation of the profile.\n"
 "### Any line starting with a '# will be ignored.\n"
@@ -1082,7 +1082,7 @@ msgstr ""
 #: lxc/image.go:456 lxc/network.go:682 lxc/network_acl.go:581
 #: lxc/network_forward.go:596 lxc/network_load_balancer.go:599
 #: lxc/network_peer.go:572 lxc/network_zone.go:512 lxc/network_zone.go:1066
-#: lxc/profile.go:524 lxc/project.go:315 lxc/storage.go:310
+#: lxc/profile.go:518 lxc/project.go:315 lxc/storage.go:310
 #: lxc/storage_bucket.go:343 lxc/storage_bucket.go:1056
 #: lxc/storage_volume.go:989 lxc/storage_volume.go:1021
 #, c-format
@@ -1322,7 +1322,7 @@ msgstr ""
 msgid "Create new networks"
 msgstr ""
 
-#: lxc/profile.go:325 lxc/profile.go:326
+#: lxc/profile.go:319 lxc/profile.go:320
 msgid "Create profiles"
 msgstr ""
 
@@ -1366,7 +1366,7 @@ msgstr ""
 #: lxc/network_acl.go:148 lxc/network_forward.go:145
 #: lxc/network_load_balancer.go:148 lxc/network_peer.go:140
 #: lxc/network_zone.go:139 lxc/network_zone.go:703 lxc/operation.go:163
-#: lxc/profile.go:650 lxc/project.go:492 lxc/storage.go:634
+#: lxc/profile.go:644 lxc/project.go:492 lxc/storage.go:634
 #: lxc/storage_bucket.go:495 lxc/storage_bucket.go:791
 #: lxc/storage_volume.go:1491
 msgid "DESCRIPTION"
@@ -1456,7 +1456,7 @@ msgstr ""
 msgid "Delete networks"
 msgstr ""
 
-#: lxc/profile.go:379 lxc/profile.go:380
+#: lxc/profile.go:373 lxc/profile.go:374
 msgid "Delete profiles"
 msgstr ""
 
@@ -1547,9 +1547,9 @@ msgstr ""
 #: lxc/network_zone.go:1163 lxc/network_zone.go:1209 lxc/operation.go:23
 #: lxc/operation.go:55 lxc/operation.go:104 lxc/operation.go:184
 #: lxc/profile.go:29 lxc/profile.go:104 lxc/profile.go:167 lxc/profile.go:250
-#: lxc/profile.go:326 lxc/profile.go:380 lxc/profile.go:430 lxc/profile.go:556
-#: lxc/profile.go:605 lxc/profile.go:666 lxc/profile.go:742 lxc/profile.go:792
-#: lxc/profile.go:851 lxc/profile.go:905 lxc/project.go:29 lxc/project.go:93
+#: lxc/profile.go:320 lxc/profile.go:374 lxc/profile.go:424 lxc/profile.go:550
+#: lxc/profile.go:599 lxc/profile.go:660 lxc/profile.go:736 lxc/profile.go:786
+#: lxc/profile.go:845 lxc/profile.go:899 lxc/project.go:29 lxc/project.go:93
 #: lxc/project.go:158 lxc/project.go:221 lxc/project.go:347 lxc/project.go:397
 #: lxc/project.go:510 lxc/project.go:565 lxc/project.go:625 lxc/project.go:654
 #: lxc/project.go:707 lxc/project.go:766 lxc/publish.go:32 lxc/query.go:34
@@ -1792,7 +1792,7 @@ msgstr ""
 msgid "Edit network zone record configurations as YAML"
 msgstr ""
 
-#: lxc/profile.go:429 lxc/profile.go:430
+#: lxc/profile.go:423 lxc/profile.go:424
 msgid "Edit profile configurations as YAML"
 msgstr ""
 
@@ -2172,7 +2172,7 @@ msgstr ""
 #: lxc/list.go:133 lxc/network.go:899 lxc/network.go:990 lxc/network_acl.go:97
 #: lxc/network_forward.go:89 lxc/network_load_balancer.go:93
 #: lxc/network_peer.go:84 lxc/network_zone.go:88 lxc/network_zone.go:653
-#: lxc/operation.go:106 lxc/profile.go:609 lxc/project.go:399
+#: lxc/operation.go:106 lxc/profile.go:603 lxc/project.go:399
 #: lxc/project.go:768 lxc/remote.go:668 lxc/storage.go:576
 #: lxc/storage_bucket.go:442 lxc/storage_bucket.go:733
 #: lxc/storage_volume.go:1402 lxc/warning.go:93
@@ -2283,7 +2283,7 @@ msgstr ""
 msgid "Get values for network zone record configuration keys"
 msgstr ""
 
-#: lxc/profile.go:555 lxc/profile.go:556
+#: lxc/profile.go:549 lxc/profile.go:550
 msgid "Get values for profile configuration keys"
 msgstr ""
 
@@ -2930,7 +2930,7 @@ msgstr ""
 msgid "List of projects to restrict the certificate to"
 msgstr ""
 
-#: lxc/profile.go:604 lxc/profile.go:605
+#: lxc/profile.go:598 lxc/profile.go:599
 msgid "List profiles"
 msgstr ""
 
@@ -3348,7 +3348,7 @@ msgstr ""
 #: lxc/config_template.go:91 lxc/config_template.go:134
 #: lxc/config_template.go:176 lxc/config_template.go:265
 #: lxc/config_template.go:324 lxc/profile.go:128 lxc/profile.go:201
-#: lxc/profile.go:690 lxc/rebuild.go:59
+#: lxc/profile.go:684 lxc/rebuild.go:59
 msgid "Missing instance name"
 msgstr ""
 
@@ -3436,8 +3436,8 @@ msgstr ""
 msgid "Missing pool name"
 msgstr ""
 
-#: lxc/profile.go:350 lxc/profile.go:404 lxc/profile.go:478 lxc/profile.go:580
-#: lxc/profile.go:766 lxc/profile.go:819 lxc/profile.go:875
+#: lxc/profile.go:344 lxc/profile.go:398 lxc/profile.go:472 lxc/profile.go:574
+#: lxc/profile.go:760 lxc/profile.go:813 lxc/profile.go:869
 msgid "Missing profile name"
 msgstr ""
 
@@ -3560,7 +3560,7 @@ msgstr ""
 #: lxc/cluster.go:183 lxc/cluster.go:925 lxc/cluster_group.go:433
 #: lxc/config_trust.go:409 lxc/config_trust.go:514 lxc/list.go:565
 #: lxc/network.go:963 lxc/network_acl.go:147 lxc/network_peer.go:139
-#: lxc/network_zone.go:138 lxc/network_zone.go:702 lxc/profile.go:649
+#: lxc/network_zone.go:138 lxc/network_zone.go:702 lxc/profile.go:643
 #: lxc/project.go:485 lxc/remote.go:729 lxc/storage.go:626
 #: lxc/storage_bucket.go:494 lxc/storage_bucket.go:790
 #: lxc/storage_volume.go:1490
@@ -3948,7 +3948,7 @@ msgstr ""
 #: lxc/config_trust.go:315 lxc/image.go:457 lxc/network.go:683
 #: lxc/network_acl.go:582 lxc/network_forward.go:597
 #: lxc/network_load_balancer.go:600 lxc/network_peer.go:573
-#: lxc/network_zone.go:513 lxc/network_zone.go:1067 lxc/profile.go:525
+#: lxc/network_zone.go:513 lxc/network_zone.go:1067 lxc/profile.go:519
 #: lxc/project.go:316 lxc/storage.go:311 lxc/storage_bucket.go:344
 #: lxc/storage_bucket.go:1057 lxc/storage_volume.go:990
 #: lxc/storage_volume.go:1022
@@ -3991,27 +3991,27 @@ msgstr ""
 msgid "Profile %s added to %s"
 msgstr ""
 
-#: lxc/profile.go:363
+#: lxc/profile.go:357
 #, c-format
 msgid "Profile %s created"
 msgstr ""
 
-#: lxc/profile.go:414
+#: lxc/profile.go:408
 #, c-format
 msgid "Profile %s deleted"
 msgstr ""
 
-#: lxc/profile.go:700
+#: lxc/profile.go:694
 #, c-format
 msgid "Profile %s isn't currently applied to %s"
 msgstr ""
 
-#: lxc/profile.go:725
+#: lxc/profile.go:719
 #, c-format
 msgid "Profile %s removed from %s"
 msgstr ""
 
-#: lxc/profile.go:776
+#: lxc/profile.go:770
 #, c-format
 msgid "Profile %s renamed to %s"
 msgstr ""
@@ -4341,7 +4341,7 @@ msgstr ""
 msgid "Remove ports from a load balancer"
 msgstr ""
 
-#: lxc/profile.go:665 lxc/profile.go:666
+#: lxc/profile.go:659 lxc/profile.go:660
 msgid "Remove profiles from instances"
 msgstr ""
 
@@ -4386,7 +4386,7 @@ msgstr ""
 msgid "Rename networks"
 msgstr ""
 
-#: lxc/profile.go:741 lxc/profile.go:742
+#: lxc/profile.go:735 lxc/profile.go:736
 msgid "Rename profiles"
 msgstr ""
 
@@ -4714,11 +4714,11 @@ msgstr ""
 msgid "Set network zone record configuration keys"
 msgstr ""
 
-#: lxc/profile.go:791
+#: lxc/profile.go:785
 msgid "Set profile configuration keys"
 msgstr ""
 
-#: lxc/profile.go:792
+#: lxc/profile.go:786
 msgid ""
 "Set profile configuration keys\n"
 "\n"
@@ -4891,7 +4891,7 @@ msgstr ""
 msgid "Show network zone record configurations"
 msgstr ""
 
-#: lxc/profile.go:850 lxc/profile.go:851
+#: lxc/profile.go:844 lxc/profile.go:845
 msgid "Show profile configurations"
 msgstr ""
 
@@ -5406,7 +5406,7 @@ msgid "USAGE"
 msgstr ""
 
 #: lxc/network.go:969 lxc/network_acl.go:149 lxc/network_zone.go:140
-#: lxc/profile.go:651 lxc/project.go:493 lxc/storage.go:635
+#: lxc/profile.go:645 lxc/project.go:493 lxc/storage.go:635
 #: lxc/storage_volume.go:1493
 msgid "USED BY"
 msgstr ""
@@ -5525,7 +5525,7 @@ msgstr ""
 msgid "Unset network zone record configuration keys"
 msgstr ""
 
-#: lxc/profile.go:904 lxc/profile.go:905
+#: lxc/profile.go:898 lxc/profile.go:899
 msgid "Unset profile configuration keys"
 msgstr ""
 
@@ -5565,7 +5565,7 @@ msgid ""
 msgstr ""
 
 #: lxc/profile.go:253
-msgid "Update the target project from the source if it already exist"
+msgid "Update the target profile from the source if it already exists"
 msgstr ""
 
 #: lxc/image.go:955
@@ -5711,7 +5711,7 @@ msgstr ""
 #: lxc/cluster.go:119 lxc/cluster.go:839 lxc/cluster_group.go:375
 #: lxc/config_trust.go:347 lxc/config_trust.go:430 lxc/monitor.go:31
 #: lxc/network.go:892 lxc/network_acl.go:91 lxc/network_zone.go:82
-#: lxc/operation.go:101 lxc/profile.go:602 lxc/project.go:394
+#: lxc/operation.go:101 lxc/profile.go:596 lxc/project.go:394
 #: lxc/storage.go:571 lxc/version.go:20 lxc/warning.go:68
 msgid "[<remote>:]"
 msgstr ""
@@ -5871,7 +5871,7 @@ msgstr ""
 msgid "[<remote>:]<instance> <name>..."
 msgstr ""
 
-#: lxc/profile.go:102 lxc/profile.go:664
+#: lxc/profile.go:102 lxc/profile.go:658
 msgid "[<remote>:]<instance> <profile>"
 msgstr ""
 
@@ -6178,8 +6178,8 @@ msgstr ""
 msgid "[<remote>:]<pool>/<volume>[/<snapshot>] [<remote>:]<pool>/<volume>"
 msgstr ""
 
-#: lxc/config_device.go:290 lxc/config_device.go:664 lxc/profile.go:324
-#: lxc/profile.go:377 lxc/profile.go:428 lxc/profile.go:849
+#: lxc/config_device.go:290 lxc/config_device.go:664 lxc/profile.go:318
+#: lxc/profile.go:371 lxc/profile.go:422 lxc/profile.go:843
 msgid "[<remote>:]<profile>"
 msgstr ""
 
@@ -6195,11 +6195,11 @@ msgstr ""
 msgid "[<remote>:]<profile> <device> <type> [key=value...]"
 msgstr ""
 
-#: lxc/profile.go:554 lxc/profile.go:903
+#: lxc/profile.go:548 lxc/profile.go:897
 msgid "[<remote>:]<profile> <key>"
 msgstr ""
 
-#: lxc/profile.go:790
+#: lxc/profile.go:784
 msgid "[<remote>:]<profile> <key><value>..."
 msgstr ""
 
@@ -6207,7 +6207,7 @@ msgstr ""
 msgid "[<remote>:]<profile> <name>..."
 msgstr ""
 
-#: lxc/profile.go:739
+#: lxc/profile.go:733
 msgid "[<remote>:]<profile> <new-name>"
 msgstr ""
 
@@ -6529,7 +6529,7 @@ msgid ""
 "    Will mount the some-volume volume on some-pool onto /opt in the instance."
 msgstr ""
 
-#: lxc/profile.go:432
+#: lxc/profile.go:426
 msgid ""
 "lxc profile edit <profile> < profile.yaml\n"
 "    Update a profile using the content of profile.yaml"
