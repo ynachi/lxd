@@ -324,7 +324,7 @@ test_projects_profiles() {
   lxc profile copy --project default --target-project foo default bar --refresh
   lxc profile copy --project default --target-project foo default bar-non-existent --refresh
   lxc profile delete bar --project foo
-  lxc profile delete bar --project bar-non-existent
+  lxc profile delete bar-non-existent --project foo
   lxc project delete foo
 }
 
