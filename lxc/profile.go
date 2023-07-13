@@ -287,6 +287,10 @@ func (c *cmdProfileCopy) Run(cmd *cobra.Command, args []string) error {
 		return err
 	}
 
+	if c.flagTargetProject != "" {
+		dest.server = dest.server.UseProject(c.flagTargetProject)
+	}
+
 	// Refresh the profile if requested.
 	if c.flagRefresh {
 		err := dest.server.UpdateProfile(dest.name, profile.Writable(), "")
@@ -298,10 +302,6 @@ func (c *cmdProfileCopy) Run(cmd *cobra.Command, args []string) error {
 	newProfile := api.ProfilesPost{
 		ProfilePut: profile.Writable(),
 		Name:       dest.name,
-	}
-
-	if c.flagTargetProject != "" {
-		dest.server = dest.server.UseProject(c.flagTargetProject)
 	}
 
 	return dest.server.CreateProfile(newProfile)
